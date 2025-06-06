@@ -159,21 +159,3 @@ Streamlit will usually automatically open a new tab in your web browser pointing
         streamlit run app.py
         
         ```
-        
-
-## Troubleshooting Common Issues for Beginners
-
-- **`ModuleNotFoundError: No module named 'streamlit'` (or any other library):**
-    - **Why:** The required library isn't installed in your current Python environment.
-    - **Fix:** Make sure your virtual environment is activated. Then, run `pip install <library_name>` (e.g., `pip install streamlit`).
-- **App doesn't start / Errors in terminal:**
-    - **Why:** Could be many reasons. Typos in the code, library compatibility issues, or problems during the first-run setup (like model download failure).
-    - **Fix:** Carefully read the error message in the terminal. It often tells you what went wrong. If it's about a missing file during setup, try deleting the `rag_quote_artifacts` folder and running the app again to force a fresh setup (ensure good internet).
-- **"Permission Denied" when running `Activate.ps1` on PowerShell:**
-    - **Why:** PowerShell's execution policy might be restricting script execution.
-    - **Fix:** Open PowerShell as Administrator. Run `Set-ExecutionPolicy Unrestricted -Scope Process` and press `Y` to confirm. Then try activating again. You can set it back to `Restricted` afterwards if you wish.
-- **App is very slow on first run:**
-    - **Why:** This is normal! It's downloading large AI models and processing data.
-    - **Fix:** Be patient. Check the terminal and Streamlit sidebar for progress messages. Subsequent runs will be fast.
-
-This README should provide a solid starting point for anyone, even those new to Python, to get the Semantic Quote Retriever up and running!
