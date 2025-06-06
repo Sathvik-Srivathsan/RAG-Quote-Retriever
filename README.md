@@ -43,11 +43,11 @@ pip install streamlit pandas numpy faiss-cpu datasets sentence-transformers tran
 
 **2. Run the Streamlit app:**
 ```
-streamlit run app.py
+streamlit run rag_quote_app.py
 
 ```
 
-(If you named your file something else, replace `app.py` with that filename).
+(If you named your file something else, replace `rag_quote_app.py` with that filename).
 
 **3. Open in Browser:**
 Streamlit will usually automatically open a new tab in your web browser pointing to the application (e.g., `http://localhost:8501`). 
