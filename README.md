@@ -63,3 +63,8 @@ If not, the terminal will display the URL you can copy and paste into your brows
     - **Retrieved Quotes:** Below the summary, you'll see the actual quotes that were found to be most relevant, along with their authors and similarity scores. These are expandable.
     - **JSON Output:** A structured JSON output of the query, summary, and retrieved entries is also provided for programmatic use or inspection.
 5. **Example Queries:** The sidebar has some example queries you can click to auto-fill the input box.
+
+
+What the StreamLit WebApp look like example:
+![image](https://github.com/user-attachments/assets/1ed864f0-ba7f-40d5-af32-710a4d2083fd)
+![image](https://github.com/user-attachments/assets/13b08739-0687-4f2f-9967-54a9b5d6f1e3)
